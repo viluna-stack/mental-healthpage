@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health | EBC</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="Mental health.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <a href="#home" class="logo">EBC <span>MENTAL HEALTH</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home" data-en="Home" data-es="Inicio">Home</a>
+            <a href="#problem" data-en="The Problem" data-es="El problema">The Problem</a>
+            <a href="#impact" data-en="Why It Matters" data-es="Por qué importa">Why It Matters</a>
+            <a href="#perspectives" data-en="Student Perspectives" data-es="Perspectivas estudiantiles">Student Perspectives</a>
+            <a href="#action" data-en="Take Action" data-es="Actúa">Take Action</a>
+        </nav>
+
+        <button class="language-btn" id="languageToggle">ES</button>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow" data-en="STUDENT WELL-BEING" data-es="BIENESTAR ESTUDIANTIL">STUDENT WELL-BEING</p>
+
+                <h1 data-en="Your mental health matters." data-es="Tu salud mental importa.">
+                    Your mental health matters.
+                </h1>
+
+                <p data-en="Academic success starts with a healthy mind. Let's talk about the importance of mental health among university students."
+                   data-es="El éxito académico comienza con una mente saludable. Hablemos sobre la importancia de la salud mental entre los estudiantes universitarios.">
+                    Academic success starts with a healthy mind. Let's talk about the importance of mental health among university students.
+                </p>
+
+                <a href="#problem" class="primary-btn" data-en="Learn more" data-es="Conoce más">Learn more</a>
+            </div>
+        </section>
+
+        <!-- THE PROBLEM -->
+        <section class="section" id="problem">
+            <div class="section-heading">
+                <p class="eyebrow" data-en="UNDERSTANDING THE ISSUE" data-es="ENTENDIENDO EL PROBLEMA">UNDERSTANDING THE ISSUE</p>
+
+                <h2 data-en="The Problem" data-es="El problema">The Problem</h2>
+
+                <p data-en="University life can bring challenges that affect students' emotional and psychological well-being."
+                   data-es="La vida universitaria puede traer desafíos que afectan el bienestar emocional y psicológico de los estudiantes.">
+                    University life can bring challenges that affect students' emotional and psychological well-being.
+                </p>
+            </div>
+
+            <div class="problem-grid">
+
+                <article class="info-card">
+                    <div class="card-icon"><i class="fas fa-book-open"></i></div>
+                    <h3 data-en="Academic Pressure" data-es="Presión académica">Academic Pressure</h3>
+                    <p data-en="Exams, assignments and high expectations can create constant stress and anxiety."
+                       data-es="Los exámenes, las tareas y las altas expectativas pueden generar estrés y ansiedad constantes.">
+                        Exams, assignments and high expectations can create constant stress and anxiety.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon"><i class="fas fa-clock"></i></div>
+                    <h3 data-en="Lack of Balance" data-es="Falta de equilibrio">Lack of Balance</h3>
+                    <p data-en="Balancing school, personal life, work and relationships can become overwhelming."
+                       data-es="Equilibrar la escuela, la vida personal, el trabajo y las relaciones puede resultar abrumador.">
+                        Balancing school, personal life, work and relationships can become overwhelming.
+                    </p>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon"><i class="fas fa-comments"></i></div>
+                    <h3 data-en="Fear of Asking for Help" data-es="Miedo a pedir ayuda">Fear of Asking for Help</h3>
+                    <p data-en="Some students avoid seeking support because of stigma, fear of judgment or lack of information."
+                       data-es="Algunos estudiantes evitan buscar apoyo por el estigma, el miedo a ser juzgados o la falta de información.">
+                        Some students avoid seeking support because of stigma, fear of judgment or lack of information.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- VIDEO 1 -->
+        <section class="video-section">
+            <div class="video-text">
+                <p class="eyebrow" data-en="LET'S TALK ABOUT IT" data-es="HABLEMOS DEL TEMA">LET'S TALK ABOUT IT</p>
+
+                <h2 data-en="Understanding student mental health" data-es="Comprender la salud mental estudiantil">
+                    Understanding student mental health
+                </h2>
+
+                <p data-en="A closer look at the challenges students may experience during university life."
+                   data-es="Una mirada más cercana a los desafíos que los estudiantes pueden experimentar durante la vida universitaria.">
+                    A closer look at the challenges students may experience during university life.
+                </p>
+            </div>
+
+            <div class="video-container">
+                <iframe
+                    src="https://drive.google.com/file/d/1Eqrl456XXOJ2rK9pIFrrlRqmpkn8qnRI/preview"
+                    title="Mental health video 1"
+                    allow="autoplay; fullscreen"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!-- WHY MENTAL HEALTH MATTERS -->
+        <section class="section impact-section" id="impact">
+            <div class="section-heading">
+                <p class="eyebrow" data-en="THE IMPORTANCE OF WELL-BEING" data-es="LA IMPORTANCIA DEL BIENESTAR">
+                    THE IMPORTANCE OF WELL-BEING
+                </p>
+
+                <h2 data-en="Why Does Mental Health Matter?" data-es="¿Por qué importa la salud mental?">
+                    Why Does Mental Health Matter?
+                </h2>
+
+                <p data-en="Explore how mental health influences different areas of a student's life. Select a topic to learn more."
+                   data-es="Descubre cómo la salud mental influye en distintas áreas de la vida estudiantil. Selecciona un tema para conocer más.">
+                    Explore how mental health influences different areas of a student's life. Select a topic to learn more.
+                </p>
+            </div>
+
+            <div class="impact-buttons">
+                <button class="impact-btn active" data-topic="academic"
+                    data-en="Academic Performance" data-es="Rendimiento académico">
+                    Academic Performance
+                </button>
+
+                <button class="impact-btn" data-topic="emotional"
+                    data-en="Emotional Well-being" data-es="Bienestar emocional">
+                    Emotional Well-being
+                </button>
+
+                <button class="impact-btn" data-topic="relationships"
+                    data-en="Personal Relationships" data-es="Relaciones personales">
+                    Personal Relationships
+                </button>
+
+                <button class="impact-btn" data-topic="physical"
+                    data-en="Physical Health" data-es="Salud física">
+                    Physical Health
+                </button>
+            </div>
+
+            <article class="impact-detail" id="impactDetail">
+                <div class="card-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+
+                <h3 id="impactTitle">Academic Performance</h3>
+
+                <p id="impactDescription">
+                    Mental health can influence concentration, motivation, memory and the ability to learn. Taking care of emotional well-being can help students engage more effectively with their studies.
+                </p>
+            </article>
+        </section>
+
+        <!-- VIDEO 2 -->
+        <section class="video-section reverse">
+            <div class="video-text">
+                <p class="eyebrow" data-en="REAL EXPERIENCES" data-es="EXPERIENCIAS REALES">REAL EXPERIENCES</p>
+
+                <h2 data-en="You are not alone" data-es="No estás solo">
+                    You are not alone
+                </h2>
+
+                <p data-en="Listening to different experiences can help us understand that asking for support is important."
+                   data-es="Escuchar distintas experiencias puede ayudarnos a comprender que pedir apoyo es importante.">
+                    Listening to different experiences can help us understand that asking for support is important.
+                </p>
+            </div>
+
+            <div class="video-container">
+                <iframe
+                    src="https://drive.google.com/file/d/10h49qxZPd7M8t0NZCzDKmnnFEhiVLH5q/preview"
+                    title="Mental health video 2"
+                    allow="autoplay; fullscreen"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!-- STUDENT PERSPECTIVES -->
+        <section class="section" id="perspectives">
+            <div class="section-heading">
+                <p class="eyebrow" data-en="STUDENT PERSPECTIVES" data-es="PERSPECTIVAS ESTUDIANTILES">
+                    STUDENT PERSPECTIVES
+                </p>
+
+                <h2 data-en="What do students experience?" data-es="¿Qué experimentan los estudiantes?">
+                    What do students experience?
+                </h2>
+
+                <p data-en="These charts illustrate responses from a small sample of five students. They are examples for educational purposes and do not represent the entire EBC student population."
+                   data-es="Estas gráficas ilustran respuestas de una pequeña muestra de cinco estudiantes. Son ejemplos con fines educativos y no representan a toda la población estudiantil de EBC.">
+                    These charts illustrate responses from a small sample of five students. They are examples for educational purposes and do not represent the entire EBC student population.
+                </p>
+            </div>
+
+            <div class="charts-grid">
+
+                <article class="chart-card">
+                    <h3 data-en="How often do students feel stressed?"
+                        data-es="¿Con qué frecuencia sienten estrés los estudiantes?">
+                        How often do students feel stressed?
+                    </h3>
+
+                    <div class="chart-container">
+                        <canvas id="stressChart"></canvas>
+                    </div>
+                </article>
+
+                <article class="chart-card">
+                    <h3 data-en="How important is mental health support?"
+                        data-es="¿Qué tan importante es el apoyo a la salud mental?">
+                        How important is mental health support?
+                    </h3>
+
+                    <div class="chart-container">
+                        <canvas id="importanceChart"></canvas>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- VIDEO 3 -->
+        <section class="video-section">
+            <div class="video-text">
+                <p class="eyebrow" data-en="TAKE A MOMENT" data-es="TÓMATE UN MOMENTO">TAKE A MOMENT</p>
+
+                <h2 data-en="Small steps can make a difference"
+                    data-es="Pequeños pasos pueden hacer la diferencia">
+                    Small steps can make a difference
+                </h2>
+
+                <p data-en="Discover simple ways to take care of your mental and emotional well-being."
+                   data-es="Descubre formas sencillas de cuidar tu bienestar mental y emocional.">
+                    Discover simple ways to take care of your mental and emotional well-being.
+                </p>
+            </div>
+
+            <div class="video-container">
+                <iframe
+                    src="https://drive.google.com/file/d/1rTRMlOjWLy55jvybMxNQiE6fbx8kU4xz/preview"
+                    title="Mental health video 3"
+                    allow="autoplay; fullscreen"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!-- TAKE ACTION -->
+        <section class="section action-section" id="action">
+            <div class="section-heading">
+                <p class="eyebrow" data-en="MAKE A CHANGE" data-es="HAZ LA DIFERENCIA">MAKE A CHANGE</p>
+
+                <h2 data-en="What can we do?" data-es="¿Qué podemos hacer?">
+                    What can we do?
+                </h2>
+
+                <p data-en="Supporting mental health starts with small, everyday actions."
+                   data-es="Apoyar la salud mental comienza con pequeñas acciones cotidianas.">
+                    Supporting mental health starts with small, everyday actions.
+                </p>
+            </div>
+
+            <div class="action-grid">
+
+                <article class="action-card">
+                    <i class="fas fa-heart"></i>
+                    <h3 data-en="Take care of yourself" data-es="Cuida de ti">Take care of yourself</h3>
+                    <p data-en="Make time for rest, hobbies, exercise and activities you enjoy."
+                       data-es="Dedica tiempo al descanso, pasatiempos, ejercicio y actividades que disfrutes.">
+                        Make time for rest, hobbies, exercise and activities you enjoy.
+                    </p>
+                </article>
+
+                <article class="action-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3 data-en="Support others" data-es="Apoya a los demás">Support others</h3>
+                    <p data-en="Listen without judging and encourage friends to seek help when needed."
+                       data-es="Escucha sin juzgar y anima a tus amigos a buscar ayuda cuando lo necesiten.">
+                        Listen without judging and encourage friends to seek help when needed.
+                    </p>
+                </article>
+
+                <article class="action-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3 data-en="Break the stigma" data-es="Rompe el estigma">Break the stigma</h3>
+                    <p data-en="Talk openly about mental health and remember that asking for help is a strength."
+                       data-es="Habla abiertamente sobre salud mental y recuerda que pedir ayuda es una fortaleza.">
+                        Talk openly about mental health and remember that asking for help is a strength.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SUPPORT -->
+        <section class="support-section" id="resources">
+            <div class="support-content">
+                <p class="eyebrow" data-en="YOU DESERVE SUPPORT" data-es="MERECES APOYO">YOU DESERVE SUPPORT</p>
+
+                <h2 data-en="It's okay to ask for help." data-es="Está bien pedir ayuda.">
+                    It's okay to ask for help.
+                </h2>
+
+                <p data-en="Reach out to someone you trust, a mental health professional or an available student support service."
+                   data-es="Acércate a alguien de confianza, a un profesional de la salud mental o a un servicio de apoyo estudiantil disponible.">
+                    Reach out to someone you trust, a mental health professional or an available student support service.
+                </p>
+
+                <a href="#contact" class="primary-btn" data-en="Learn more" data-es="Conoce más">Learn more</a>
+            </div>
+        </section>
+
+        <!-- FINAL MESSAGE -->
+        <section class="section contact-section" id="contact">
+            <h2 data-en="Your well-being matters." data-es="Tu bienestar importa.">
+                Your well-being matters.
+            </h2>
+
+            <p data-en="Take care of your mind. Give yourself the same attention you give to your goals."
+               data-es="Cuida tu mente. Date la misma atención que les das a tus metas.">
+                Take care of your mind. Give yourself the same attention you give to your goals.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 EBC Mental Health |
+            <span data-en="Student Well-being Project" data-es="Proyecto de bienestar estudiantil">
+                Student Well-being Project
+            </span>
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="Mental Health.js" defer></script>
+
+</body>
+</html>
